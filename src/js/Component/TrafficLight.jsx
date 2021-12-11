@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import "../../styles/home.scss";
+import "../../Styles/trafficLight.scss";
 
-//create your first component
-const Home = () => {
+const TrafficLight = () => {
 	const [glowLight, setGlowLight] = useState("");
 	return (
 		<div className="trafficLight">
@@ -23,4 +22,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default TrafficLight;
